@@ -1,0 +1,27 @@
+2026-03-24 21:29:59.782925-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&'Coding Interview in\\000d\\000aJava\\000d\\000aProgram Creek\\000d\\000aMay 1st, 20... (176888)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
+2026-03-24 21:29:59.998930-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&'Coding Interview in\\000d\\000aJava\\000d\\000aProgram Creek\\000d\\000aMay 1st, 20... (176888)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
+2026-03-24 21:31:12.505409-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]DOCUMENTS DOCUMENTS DOCUMENTS"; expected "DELETE, DROP"; SQL statement:
+DOCUMENTS DOCUMENTS DOCUMENTS [42001-232]
+2026-03-24 21:31:46.367467-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&'# SPRING BOOT \\000d\\000a \\000d\\000a1. Introduction to Spring Boot \\000d\\000a ... (66104)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
+2026-03-25 22:48:50.783847-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&' \\000d\\000aTop 100 Java Interview Questions & Answers \\000d\\000a \\000d\\000a1.... (27033)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
+2026-03-25 22:48:58.488306-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&' \\000d\\000aTop 100 Java Interview Questions & Answers \\000d\\000a \\000d\\000a1.... (27033)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
+2026-03-26 22:15:54.052238-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&'Screening Test / Interview Questions \\000d\\000aCandidate''s Name: Rakesh Redd... (20300)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
+2026-03-26 22:15:57.533106-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&'Screening Test / Interview Questions \\000d\\000aCandidate''s Name: Rakesh Redd... (20300)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
+2026-03-26 22:16:05.899423-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(10000)": "U&'Screening Test / Interview Questions \\000d\\000aCandidate''s Name: Rakesh Redd... (20300)"; SQL statement:
+insert into documents (content,file_name,file_type,uploaded_at,id) values (?,?,?,?,default) [22001-232]
